@@ -6,7 +6,10 @@ let inputField = document.getElementById('inputField');
 
 addToDoButton.addEventListener('click', function(){
     
-    let paragraph = document.createElement('h2');
+     if(inputField.value==""){
+          alert('Must have Text 📝😊');
+     }else{
+          let paragraph = document.createElement('h2');
      paragraph.classList.add('paragraph-styling');
      paragraph.innerText = inputField.value;
      toDoContainer.appendChild(paragraph);
@@ -17,5 +20,8 @@ addToDoButton.addEventListener('click', function(){
      paragraph.addEventListener('dblclick', function(){
           toDoContainer.removeChild(paragraph);
      })
+     }
+     
+
      
 } )
