@@ -1,50 +1,48 @@
-html,body{
-     width: 50%;
-     margin: 0 auto;
-     padding: 0;
-     font-family: Arial, Helvetica, sans-serif;
+body{
+     background-color: #f0f0f3;
 }
 .container{
-     width: 360px;
-     display: flex;
-    
+     text-align: center;
+     /* display: flex;
+     /* flex-direction: column; */
+     /* justify-content: center; */
+     
 }
 
-h1{
+h1,p{
+     margin-top: 50px;
      text-align: center;
-     margin-left: 100px;
 }
 #inputField{
      width: 360px;
      height: 46px;
-     border: 3px solid rgb(223, 3, 3);
+     border: 2px solid rgb(0, 0, 0);
      outline: none;
      font-size: 25px;
-     vertical-align: middle;
+     text-align: start;
+     height: 49px;
      
 }
 
-#addToDo{
+button{
+     height: 52px;
+     width: 70px;
+     outline: none;
+     box-sizing: border-box;
      margin-left: 5px;
-     height: 54px;
-     width: 54px;
-     border: 3px solid rgb(233, 10, 10);
+     /* margin-top: 30px; */
+     border: 1px solid rgb(0, 0, 0);
      font-size: 30px;
      cursor: pointer;
-     background-color: rgb(98, 139, 236);
+     background-color: rgb(255, 255, 255);
 
 }
 #addToDo:hover{
-     background-color: rgb(4, 255, 167);
+     background-color: rgba(112, 112, 112, 0.339);
 }
 
 
 .todos{
-     margin-top: 25px;
+     margin-top: 65px;
 }
 
-.paragrapg-styling{
-     margin: o;
-     cursor: pointer;
-     font-size: 25px;
-}
