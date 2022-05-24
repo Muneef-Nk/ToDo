@@ -46,3 +46,17 @@ button{
      margin-top: 65px;
 }
 
+.paragraph-styling{
+     margin-left: 29%;
+     width: 40%;
+     margin-top: 40px;
+     cursor: pointer;
+     height: 30px;
+     font-size: 40px;
+     text-align:center;
+   padding-bottom: 20px;
+     border: 1px dotted;
+   
+}
+
+
